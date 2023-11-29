@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24156e79c1cfa4702a8cc5fe453c8b6f, type: 3}
+  m_Name: Metralhadora
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 9103788505343753358, guid: 4334bc8c24ca9462395310c704bdf213, type: 3}
+  weaponCooldown: 0.2
+  weaponDamage: 2
+  weaponRange: 25

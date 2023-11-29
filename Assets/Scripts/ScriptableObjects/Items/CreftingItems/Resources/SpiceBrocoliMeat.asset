@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8b75c2b7f7047b4a32e72b36cf05cf, type: 3}
+  m_Name: SpiceBrocoliMeat
+  m_EditorClassIdentifier: 
+  inputItems:
+  - item: {fileID: 11400000, guid: 33b2f089188414d4da64e8c7cbe6c3c4, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: e369466fc19e041289febc5aa9fbe15b, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: c4089878a2b5849fab8df328c7fc9809, type: 2}
+    quantity: 1
+  outputItem:
+    item: {fileID: 11400000, guid: bf9ecf0a6bcea4aa79affb5db5d57ba3, type: 2}
+    quantity: 1
+  icon: {fileID: 21300000, guid: 5978cf51337374c889f77ea72299967a, type: 3}

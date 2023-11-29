@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8465334414940990074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8465334414940990073}
+  - component: {fileID: 4505504891780275253}
+  - component: {fileID: 9101003776423472275}
+  - component: {fileID: 3424231881915884832}
+  m_Layer: 0
+  m_Name: DayTimeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8465334414940990073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465334414940990074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4505504891780275253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465334414940990074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663be168b4729764392a5dac0e36648f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ClockFace: {fileID: 0}
+  Date: {fileID: 0}
+  Time: {fileID: 0}
+  Season: {fileID: 0}
+  Week: {fileID: 0}
+  startingRotation: 0
+  sunlight: {fileID: 0}
+  nightIntensity: 1
+  dayIntensity: 1
+  dayNightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.0041809
+      value: -0.011791229
+      inSlope: -5.3761916
+      outSlope: -5.3761916
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.066403285
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &9101003776423472275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465334414940990074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740e409e9e116f942930292348267535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dateInMonth: 1
+  season: 2
+  year: 23
+  hour: 6
+  minute: 3
+  tickSecondsIncrease: 10
+  timeBetweenTicks: 1
+--- !u!114 &3424231881915884832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8465334414940990074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 013a32e2644c13b46b786ec1ef24e86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  marks:
+  - timeRatio: 0
+    color: {r: 0.995283, g: 0.99574697, b: 1, a: 0}
+    intensity: 1
+  - timeRatio: 0.4
+    color: {r: 1, g: 0.7682102, b: 0.0047169924, a: 0}
+    intensity: 0.95
+  - timeRatio: 0.5
+    color: {r: 0, g: 0.04824712, b: 0.5471698, a: 0}
+    intensity: 0.4
+  - timeRatio: 0.9
+    color: {r: 0.06950873, g: 0.08232661, b: 0.20754719, a: 0}
+    intensity: 0.5
+  cycleLenght: 439
+  startHour: 10

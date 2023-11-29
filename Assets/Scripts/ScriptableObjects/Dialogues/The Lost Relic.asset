@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8984125921412701533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: 1cac3b4f-63ec-49e0-a5b1-38c335a7f3b2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Thank you !
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1043
+    y: 219
+    width: 200
+    height: 100
+  OnEnterAction: Give Quest
+  OnExitAction: StopMoving
+  condition:
+    predicate: 
+    parameters: []
+--- !u!114 &-8426348644240102978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: 02ed1a58-d66c-4c6f-b691-a399cff31188
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Brave soul, we implore you to track down the thieves and retrieve the Heartstone.
+    We believe they've fled to the Cursed Marshlands to the east. Be cautious, for
+    the marshlands are treacherous and filled with dangers. Once you recover the
+    Heartstone, return it to me, and you shall be rewarded handsomely.
+  children:
+  - acb1dc52-a038-4b28-abd6-dab4f13a6778
+  rect:
+    serializedVersion: 2
+    x: 556
+    y: 248
+    width: 200
+    height: 100
+  OnEnterAction: 
+  OnExitAction: 
+  condition:
+    predicate: 
+    parameters: []
+--- !u!114 &-4395820057928555412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: 2ad68edd-2c83-455d-b5ff-46a286c5fa93
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I actualy dont have it
+  children:
+  - d6ce3a87-4b00-47a2-b5d4-0920d28b8e89
+  rect:
+    serializedVersion: 2
+    x: 795
+    y: 12
+    width: 200
+    height: 100
+  OnEnterAction: 
+  OnExitAction: 
+  condition:
+    predicate: 
+    parameters: []
+--- !u!114 &-4136749015244366070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: 3bf3dd2d-b679-4fc0-aeb7-d7a6b693c88f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes it is!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1044
+    y: 117
+    width: 200
+    height: 100
+  OnEnterAction: TestObjectie
+  OnExitAction: StopMoving
+  condition:
+    predicate: 
+    parameters: []
+--- !u!114 &-2462991175710435269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: 3761259c-d83d-4f4b-966d-f0b7d32d448c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: Betania wants an apple , you check if i have one ??
+  children:
+  - d63b094a-6ff4-4f23-a10a-ecc700a86947
+  rect:
+    serializedVersion: 2
+    x: 269
+    y: 70
+    width: 200
+    height: 100
+  OnEnterAction: 
+  OnExitAction: 
+  condition:
+    predicate: HasQuest
+    parameters:
+    - Applegiver
+--- !u!114 &-922753638004521126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: de5b0f11-4119-42a9-b55a-41366e19a3a0
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: How can I help,  Gabriela?
+  children:
+  - 02ed1a58-d66c-4c6f-b691-a399cff31188
+  rect:
+    serializedVersion: 2
+    x: 304
+    y: 249
+    width: 200
+    height: 100
+  OnEnterAction: 
+  OnExitAction: 
+  condition:
+    predicate: 
+    parameters: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5ef56b6476e466b9415c734bd06ee8, type: 3}
+  m_Name: The Lost Relic
+  m_EditorClassIdentifier: 
+  newNodeOffset: {x: 250, y: 0}
+  nodes:
+  - {fileID: 8823018077290212781}
+  - {fileID: -922753638004521126}
+  - {fileID: -8426348644240102978}
+  - {fileID: -2462991175710435269}
+  - {fileID: 501021833574962219}
+  - {fileID: 7520181966910856725}
+  - {fileID: -8984125921412701533}
+  - {fileID: -4395820057928555412}
+  - {fileID: 8393284432984324576}
+  - {fileID: 3033205046311953074}
+  - {fileID: -4136749015244366070}
+--- !u!114 &501021833574962219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: d63b094a-6ff4-4f23-a10a-ecc700a86947
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Yes  of corse, show me your inventory!
+  children:
+  - 2ad68edd-2c83-455d-b5ff-46a286c5fa93
+  - 032dea63-c7d0-407c-9069-3f5f2b4bd51f
+  rect:
+    serializedVersion: 2
+    x: 493
+    y: 70
+    width: 200
+    height: 100
+  OnEnterAction: 
+  OnExitAction: StopMoving
+  condition:
+    predicate: 
+    parameters:
+    - 
+--- !u!114 &3033205046311953074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: d6ce3a87-4b00-47a2-b5d4-0920d28b8e89
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Ok come back when you have it
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1045
+    y: 12
+    width: 200
+    height: 100
+  OnEnterAction: 
+  OnExitAction: StopMoving
+  condition:
+    predicate: 
+    parameters: []
+--- !u!114 &7520181966910856725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: acb1dc52-a038-4b28-abd6-dab4f13a6778
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: I accept your quest,  Gabriela. I will recover the Heartstone and bring it
+    back to your village.
+  children:
+  - 1cac3b4f-63ec-49e0-a5b1-38c335a7f3b2
+  rect:
+    serializedVersion: 2
+    x: 817
+    y: 249
+    width: 200
+    height: 100
+  OnEnterAction: 
+  OnExitAction: 
+  condition:
+    predicate: 
+    parameters: []
+--- !u!114 &8393284432984324576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: 032dea63-c7d0-407c-9069-3f5f2b4bd51f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Here you go '
+  children:
+  - 3bf3dd2d-b679-4fc0-aeb7-d7a6b693c88f
+  rect:
+    serializedVersion: 2
+    x: 790
+    y: 119
+    width: 200
+    height: 100
+  OnEnterAction: 
+  OnExitAction: 
+  condition:
+    predicate: HasInventoryItem
+    parameters:
+    - 52a15fde-da6e-4523-b49a-b9ad42e63cb3
+--- !u!114 &8823018077290212781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c93f77744374c4ca4537e9a4a76b1a, type: 3}
+  m_Name: 62d095f5-44da-486b-8520-a4f0c9177b63
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Ah, young adventurer, I see the fire of curiosity burning in your eyes. Perhaps
+    you can aid us in a matter of great importance. Our village has guarded a sacred
+    relic for generations, a gem known as the Heartstone. It is said to possess the
+    power to heal the land and bring prosperity. However, it was stolen from our
+    shrine just last night by a band of cunning thieves.
+  children:
+  - de5b0f11-4119-42a9-b55a-41366e19a3a0
+  - 3761259c-d83d-4f4b-966d-f0b7d32d448c
+  rect:
+    serializedVersion: 2
+    x: 27
+    y: 212
+    width: 200
+    height: 100
+  OnEnterAction: StopMoving
+  OnExitAction: 
+  condition:
+    predicate: 
+    parameters: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a9d9effd1cfd4e5cb29a7f822910eaf, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  itemName: Key
+  itemIcon: {fileID: 528350618, guid: 4a5301730796d4779b76e4bf2c5c2beb, type: 3}
+  itemDescription: Key used to open Doors
+  isStackable: 1
+  collected: 0
+  AmountAdded: 1
+  AmountHealth: 0
+  AmountStamina: 0
+  cType: 7

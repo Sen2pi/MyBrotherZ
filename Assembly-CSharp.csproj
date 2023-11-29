@@ -1,0 +1,1824 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{b2af0970-9416-d389-8d36-215cbf68f2ad}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2021_3_25;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/3D Skybox/Scripts/SkyboxCamera.cs" />
+     <Compile Include="Assets/Scripts/Dialogue/DialogueNode.cs" />
+     <Compile Include="Assets/Scripts/Loot/PickUpSpawner.cs" />
+     <Compile Include="Assets/Scripts/Managers/DayAndNightCicle.cs" />
+     <Compile Include="Assets/Scripts/Misc/IPredicateEvaluator.cs" />
+     <Compile Include="Assets/Scripts/Player/PlayerHealth.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Weapons/InventorySlot.cs" />
+     <Compile Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Scripts/FirstPersonController.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Item/Miscelaneous.cs" />
+     <Compile Include="Assets/Scripts/Misc/Destructable.cs" />
+     <Compile Include="Assets/Scripts/Quests/QuestItemUI.cs" />
+     <Compile Include="Assets/Scripts/Quests/QuestCompletion.cs" />
+     <Compile Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Scripts/AutoLoadPipelineAsset.cs" />
+     <Compile Include="Assets/Scripts/Player/PlayerAmmo.cs" />
+     <Compile Include="Assets/Scripts/Weapons/Laser.cs" />
+     <Compile Include="Assets/Scripts/Weapons/Projectile.cs" />
+     <Compile Include="Assets/Scripts/Player/Player Controls.cs" />
+     <Compile Include="Assets/Scripts/Quests/QuestGiver.cs" />
+     <Compile Include="Assets/Scripts/Managers/ClockManager.cs" />
+     <Compile Include="Assets/Scripts/Misc/MoveableObject.cs" />
+     <Compile Include="Assets/Scripts/Enemies/AggroGroup.cs" />
+     <Compile Include="Assets/Scripts/Misc/Condition.cs" />
+     <Compile Include="Assets/Scripts/Quests/QuestStatus.cs" />
+     <Compile Include="Assets/Scripts/SaveAndLoad/DataPersistenceManager.cs" />
+     <Compile Include="Assets/Scripts/Weapons/Bow.cs" />
+     <Compile Include="Assets/Scripts/Managers/InventoryManager.cs" />
+     <Compile Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/LensFlares/Scripts/ScreenSpacePlacement.cs" />
+     <Compile Include="Assets/Scripts/Enemies/MeleeEnemy.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Weapons/ActiveInventory.cs" />
+     <Compile Include="Assets/Scripts/Enemies/EnemyHealth.cs" />
+     <Compile Include="Assets/Scripts/Player/SelfDestroy.cs" />
+     <Compile Include="Assets/Scripts/SaveAndLoad/IDataPersisence.cs" />
+     <Compile Include="Assets/Scripts/Enemies/BoomerangProjectile.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Weapons/IWeapon.cs" />
+     <Compile Include="Assets/Scripts/SaveAndLoad/SerializableVector3.cs" />
+     <Compile Include="Assets/Scripts/Misc/SpriteFade.cs" />
+     <Compile Include="Assets/Scripts/Quests/QuestToolTipSpawner.cs" />
+     <Compile Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/KeepFrame/KeepFrameFeature.cs" />
+     <Compile Include="Assets/Scripts/Managers/Scene Management/SceneManagement.cs" />
+     <Compile Include="Assets/Scripts/Weapons/MouseFollow.cs" />
+     <Compile Include="Assets/Scripts/Misc/Throwable.cs" />
+     <Compile Include="Assets/Scripts/Quests/QuestUITooltip.cs" />
+     <Compile Include="Assets/Scripts/Misc/CameraMotor.cs" />
+     <Compile Include="Assets/Scripts/Managers/TimeManager.cs" />
+     <Compile Include="Assets/Scripts/Managers/GeneratEnemies.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Item/Slot.cs" />
+     <Compile Include="Assets/Scripts/Managers/Scene Management/Menu.cs" />
+     <Compile Include="Assets/Scripts/Brother/NPCPathfinding.cs" />
+     <Compile Include="Assets/Scripts/Misc/Grabable.cs" />
+     <Compile Include="Assets/Scripts/Managers/Scene Management/Singleton.cs" />
+     <Compile Include="Assets/Scripts/SaveAndLoad/FileDataHandler.cs" />
+     <Compile Include="Assets/Scripts/Loot/PickUps.cs" />
+     <Compile Include="Assets/Scripts/Brother/AllyAI.cs" />
+     <Compile Include="Assets/Scripts/SaveAndLoad/SaveSlot.cs" />
+     <Compile Include="Assets/Scripts/Dialogue/PlayerConversant.cs" />
+     <Compile Include="Assets/Scripts/Managers/EconomyManager.cs" />
+     <Compile Include="Assets/Scripts/Misc/Parralax.cs" />
+     <Compile Include="Assets/Scripts/Quests/Quest.cs" />
+     <Compile Include="Assets/Scripts/SaveAndLoad/SaveSlotsMenu.cs" />
+     <Compile Include="Assets/Scripts/Misc/DisableLightDay.cs" />
+     <Compile Include="Assets/Scripts/Enemies/Shooter.cs" />
+     <Compile Include="Assets/Scripts/Misc/ShowHideUI.cs" />
+     <Compile Include="Assets/Scripts/Misc/NPCAI.cs" />
+     <Compile Include="Assets/Scripts/Quests/QuestList.cs" />
+     <Compile Include="Assets/Scripts/Misc/UIButtonInteraction.cs" />
+     <Compile Include="Assets/Scripts/Misc/CursorManager.cs" />
+     <Compile Include="Assets/Scripts/Inventory/CraftingSystem/CraftingRecipe.cs" />
+     <Compile Include="Assets/Scripts/Misc/FollowFlip.cs" />
+     <Compile Include="Assets/Scripts/Weapons/Staff.cs" />
+     <Compile Include="Assets/Scripts/Enemies/SpitProjectile.cs" />
+     <Compile Include="Assets/Scripts/Misc/Transparency.cs" />
+     <Compile Include="Assets/Scripts/Misc/Flash.cs" />
+     <Compile Include="Assets/Scripts/Dialogue/AIConversant.cs" />
+     <Compile Include="Assets/Scripts/Misc/Indestructable.cs" />
+     <Compile Include="Assets/Scripts/Player/PlayerController.cs" />
+     <Compile Include="Assets/Scripts/SaveAndLoad/SerializableDictionary.cs" />
+     <Compile Include="Assets/Scripts/Misc/TooltipSpawner.cs" />
+     <Compile Include="Assets/Scripts/Enemies/IEnemy.cs" />
+     <Compile Include="Assets/Scripts/Player/GamepadMouse.cs" />
+     <Compile Include="Assets/Scripts/Enemies/EnemyAI.cs" />
+     <Compile Include="Assets/Scripts/Managers/PlayOnDistance.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Item/Tool.cs" />
+     <Compile Include="Assets/Scripts/Misc/DamageEffect.cs" />
+     <Compile Include="Assets/Scripts/Brother/AllyHealth.cs" />
+     <Compile Include="Assets/Scripts/Enemies/EnemyPathfinding.cs" />
+     <Compile Include="Assets/Scripts/Managers/Scene Management/AreaEntrance.cs" />
+     <Compile Include="Assets/Scripts/Dialogue/DialogueUI.cs" />
+     <Compile Include="Assets/Scripts/Managers/Scene Management/AreaExit.cs" />
+     <Compile Include="Assets/Scripts/Weapons/Sword.cs" />
+     <Compile Include="Assets/Scripts/Enemies/HealthBarBehavior.cs" />
+     <Compile Include="Assets/Scripts/Misc/RandomIdleAnimation.cs" />
+     <Compile Include="Assets/Scripts/Player/Damage.cs" />
+     <Compile Include="Assets/Scripts/Brother/AllyPathfinding.cs" />
+     <Compile Include="Assets/Scripts/Managers/Scene Management/UIFade.cs" />
+     <Compile Include="Assets/Scripts/Quests/QuestListUI.cs" />
+     <Compile Include="Assets/Scripts/SaveAndLoad/GameData.cs" />
+     <Compile Include="Assets/Scripts/Enemies/SpitLandSplatter.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Item/Door.cs" />
+     <Compile Include="Assets/Scripts/Player/ActiveWeapon.cs" />
+     <Compile Include="Assets/Scripts/Managers/MainMenu.cs" />
+     <Compile Include="Assets/Scripts/Misc/PopUp.cs" />
+     <Compile Include="Assets/Scripts/Enemies/Spit.cs" />
+     <Compile Include="Assets/Scripts/Misc/KnockBack.cs" />
+     <Compile Include="Assets/Scripts/Player/Stamina.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Item/ItemClass.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Item/Chest.cs" />
+     <Compile Include="Assets/Scripts/Dialogue/Dialogue.cs" />
+     <Compile Include="Assets/Scripts/Misc/TorchFlicker.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Weapons/WeaponInfo.cs" />
+     <Compile Include="Assets/Scripts/Misc/ChainCollisionHandler.cs" />
+     <Compile Include="Assets/Scripts/Inventory/Item/Consumable.cs" />
+     <Compile Include="Assets/Scripts/Misc/CraftButton.cs" />
+     <Compile Include="Assets/Scripts/Dialogue/DialogueTrigger.cs" />
+     <Compile Include="Assets/Scripts/Player/PlayerLevel.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets/Animations/Environment" />
+     <None Include="Assets/Sprites/Use Sprites/Particle FX 1.0/public-license.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/mergetool.ja.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Tomb A" />
+     <None Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 1 - RPG Maker MV/ReadMe.txt" />
+     <Folder Include="Assets/Scenes" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/3 melee/3" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Hospital Tiles - RPG Maker MV - Vexed/Horror City - Frankenstein MV/Objects" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/images.zh-Hans.txt" />
+     <Folder Include="Assets/Prefabs/items/Chests" />
+     <None Include="Library/PackageCache/com.unity.modules.subsystems@1.0.0/package.json" />
+     <None Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/package.json" />
+     <Folder Include="Assets/Tiles/Animated Tiles" />
+     <Folder Include="Assets/Sprites/Use Sprites" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/guihelp.zh-Hant.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <Folder Include="Assets/Animations/Player/LaserGun/idle" />
+     <None Include="Library/PackageCache/com.unity.modules.jsonserialize@1.0.0/package.json" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals/ProxyLighting/Shaders" />
+     <Folder Include="Library/PackageCache/com.unity.test-framework@1.1.31" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel2/walk" />
+     <Folder Include="Assets/Animations/Player/Grab" />
+     <Folder Include="Library/PackageCache/com.unity.searcher@4.9.1" />
+     <None Include="Library/PackageCache/com.unity.modules.screencapture@1.0.0/package.json" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Tests" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Enemies" />
+     <Folder Include="Assets/Prefabs/items/UI/Cursor" />
+     <None Include="Library/PackageCache/com.unity.modules.cloth@1.0.0/package.json" />
+     <Folder Include="Assets/Prefabs/Environment" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras" />
+     <Folder Include="Assets/Scripts/Quests" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/16x16/_PNG" />
+     <Folder Include="Assets/Prefabs/items/UI/Quests" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Character_Generator_Addons_16x16/Characters_16x16" />
+     <Folder Include="Library/PackageCache/com.unity.modules.imgui@1.0.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn G" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/plastic-gui.zh-Hant.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/Tab Animated" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Pipe Rule Tile/Sprites" />
+     <Folder Include="Assets/Sprites/Use Sprites/Environment/Torch" />
+     <Folder Include="Assets/TextMesh Pro/Sprites" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Spikes trap B" />
+     <None Include="Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0/package.json" />
+     <Folder Include="Assets/Animations/Player/Sword/attack" />
+     <Folder Include="Assets/Scripts/Inventory" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/images.es.txt" />
+     <Folder Include="Assets/Animations/Player/Bow/Swap" />
+     <None Include="Library/PackageCache/com.unity.inputsystem@1.5.1/package.json" />
+     <None Include="Library/PackageCache/com.unity.modules.ai@1.0.0/package.json" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0" />
+     <Folder Include="Assets/Animations/Player/Metralhadora/pickup" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/differences.es.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/4 spit/gifs" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Textures" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/commontypes.zh-Hans.txt" />
+     <Folder Include="Library/PackageCache/com.unity.2d.tilemap.extras@2.2.6" />
+     <Folder Include="Library/PackageCache/com.unity.modules.animation@1.0.0" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/Day &amp; Night Cycle/Sun &amp; Moon" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld" />
+     <None Include="Assets/Tiles/PALands_SET1_v1.0/info.txt" />
+     <Folder Include="Assets/Scripts/ScriptableObjects" />
+     <None Include="Library/PackageCache/com.unity.inputsystem@1.5.1/ValidationConfig.json" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Anim objects/Red well" />
+     <Folder Include="Assets/Scripts" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Shaders/Lit/Models" />
+     <Folder Include="Assets/Animations/Player/Metralhadora/Swap" />
+     <None Include="Library/PackageCache/com.unity.ugui@1.0.0/package.json" />
+     <Folder Include="Assets/Animations/Player" />
+     <Folder Include="Assets/Sounds" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 2 - RPG Maker MV" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/10_Vehicles_Singles_16x16" />
+     <Folder Include="Library/PackageCache/com.unity.modules.xr@1.0.0" />
+     <None Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/package.json" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/mergetool.es.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Misc/Bow &amp; Staff Sprites" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps" />
+     <Folder Include="Assets/Sprites/Use Sprites/Misc" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16" />
+     <None Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/package.json" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/basecommands.es.txt" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Textures/SMAA" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm.es.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/basecommands.ko.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn B" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/1.First Layer" />
+     <Folder Include="Library/PackageCache/com.unity.ide.rider@3.0.21/Rider" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/semantic.zh-Hant.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion" />
+     <Folder Include="Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3" />
+     <Folder Include="Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3/Tests" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City Tile Pack - RPG Maker MV/Bonus Character Sprites" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/0.Rockslevelbuild" />
+     <None Include="Library/PackageCache/com.unity.2d.pixel-perfect@5.0.3/package.json" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 2 - RPG Maker MV/Faces" />
+     <Folder Include="Assets/Animations/Player/Bow/Death" />
+     <Folder Include="Assets/Scripts/Inventory/Weapons" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/clientcommon.es.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn C" />
+     <Folder Include="Assets/Animations/Animals/Snake/attack 1" />
+     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources" />
+     <Folder Include="Assets/Animations/Bow" />
+     <Folder Include="Assets/Animations/Player/LaserGun" />
+     <Folder Include="Assets/Animations/Brother/Death" />
+     <Folder Include="Assets/Sprites/Use Sprites/Player/main character karimpatatas/Grabing" />
+     <Folder Include="Assets/Animations/Animals/Wolf/death 1" />
+     <Folder Include="Library/PackageCache/com.unity.2d.common@6.0.6/Tests" />
+     <Folder Include="Assets/Scripts/Managers/Scene Management" />
+     <None Include="Library/PackageCache/com.unity.modules.assetbundle@1.0.0/package.json" />
+     <Folder Include="Library/PackageCache/com.unity.inputsystem@1.5.1/Tests" />
+     <Folder Include="Assets/Scripts/Dialogue" />
+     <Folder Include="Assets/Settings" />
+     <Folder Include="Assets/Animations/Brother/attack" />
+     <Folder Include="Assets/Animations/Player/LaserGun/attack" />
+     <Folder Include="Assets/Animations/Animals/Spider/death" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel2/idle" />
+     <Folder Include="Assets/Prefabs/Misc" />
+     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/package.json" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/TrailEffect/Animation" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0" />
+     <Folder Include="Assets/Animations/Sword/SwordAttack" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/guihelp.ja.txt" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16" />
+     <None Include="Library/PackageCache/com.unity.modules.imgui@1.0.0/package.json" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/4 Paper Pack" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Graphics" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sewer Tileset - RPG Maker MV" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Animated objects/Light A" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Dungeon Rule Tile" />
+     <None Include="Assets/Tiles/OpenWorldandcavedung_1.0/public-license.txt" />
+     <Folder Include="Assets/Animations/Environment/Tree" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/2 vomit" />
+     <Folder Include="Assets/Tiles/TileMaps" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/12_Hotel_and_Hospital_Singles_16x16" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/3 Emoji Pack" />
+     <None Include="Library/PackageCache/com.unity.modules.tilemap@1.0.0/package.json" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/xdiff.ja.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn M" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/configurehelper.es.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Shaders/Lit/Lit" />
+     <Folder Include="Library/PackageCache/com.unity.modules.assetbundle@1.0.0" />
+     <Folder Include="Library/PackageCache/com.unity.burst@1.8.4/Tests" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Quests" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/16x16/anim/_PSD" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Shaders/Lit/Textures" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/2.Second Layer" />
+     <Folder Include="Assets/Animations/Animals/Bear/attack" />
+     <None Include="Assets/Tiles/PALands_SET2_v1.0/info.txt" />
+     <Folder Include="Assets/Animations/NPC&apos;s" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design" />
+     <Folder Include="Assets/Animations/Zombie/ZombieBoomerang/idle 1" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/AmbientOcclusion/Animation" />
+     <Folder Include="Assets/Animations/Player/Sword" />
+     <Folder Include="Assets/Materials" />
+     <Folder Include="Assets/Scripts/Loot" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/Day &amp; Night Cycle/Background" />
+     <Folder Include="Assets/Materials/Materials" />
+     <None Include="Library/PackageCache/com.unity.timeline@1.6.5/package.json" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Anim objects/Rag wind B" />
+     <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom" />
+     <Folder Include="Assets/Tiles/)MagicLands(Agua" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/4.SingleObj/Trees" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/configurehelper.en.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Particle FX 1.0/Fire+Sparks" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/spit" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/3D Skybox/Prefabs" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/Buttons &amp; Holders" />
+     <Folder Include="Assets/Sprites/Use Sprites/Inventory UI" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/Grape/Materials" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials" />
+     <Folder Include="Assets/Tiles/Animated_sheets_16x16" />
+     <Folder Include="Assets/Sprites/Use Sprites/Player/main character karimpatatas/sword" />
+     <Folder Include="Assets/Sprites/Use Sprites/Items" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.8.0" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/1 melee/gifs" />
+     <Folder Include="Assets/Materials/shaders" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 1 - RPG Maker MV/Extras" />
+     <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.18/ValidationConfig.json" />
+     <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6/net35" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/LensFlares/Scripts" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/basecommands.zh-Hant.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Prefabs" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect" />
+     <Folder Include="Assets/Animations/NPC&apos;s/Betânia/idle" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm-help.es.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Player/main character karimpatatas" />
+     <None Include="Library/PackageCache/com.unity.modules.terrainphysics@1.0.0/package.json" />
+     <None Include="Library/PackageCache/com.unity.mathematics@1.2.6/package.json" />
+     <Folder Include="Assets/Sprites/Use Sprites/Particle FX 1.0/Smoke" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Weapons/Resources" />
+     <Folder Include="Assets/Sprites/Use Sprites/Pixel UI pack 3" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.11/Tests" />
+     <Folder Include="Assets/Prefabs/Enemys" />
+     <Folder Include="Assets/Animations/Player/LaserGun/Death" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/differences.zh-Hant.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/4.SingleObj/Decorative/Rocks" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <Folder Include="Assets/Animations/Zombie/ZombieBoomerang/Boomerang" />
+     <Folder Include="Assets/TextMesh Pro/Resources" />
+     <Folder Include="Assets/Sprites/Use Sprites/NPC_Characters_v1.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/4.SingleObj/Decorative/Wood env" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/32x32/anim/_PNG" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/icons" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 1 - RPG Maker MV/Faces" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel1/walk" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/plastic-gui.ko.txt" />
+     <Folder Include="Assets/Scripts/Brother" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/basecommands.ja.txt" />
+     <Folder Include="Library/PackageCache/com.unity.modules.screencapture@1.0.0" />
+     <None Include="Library/PackageCache/com.unity.visualscripting@1.8.0/package.json" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/1 melee" />
+     <None Include="Library/PackageCache/com.unity.timeline@1.6.5/ValidationExceptions.json" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/2 Equipments Pack" />
+     <Folder Include="Assets/Unity.VisualScripting.Generated/VisualScripting.Flow" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/package.json" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Anim objects/Chest B" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Settings" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/xdiff.zh-Hans.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/xdiff.ko.txt" />
+     <Folder Include="Library/PackageCache/com.unity.timeline@1.6.5" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/clientcommon.ja.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Anim objects/Chest A" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/5 boomerang/gifs" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/4.SingleObj/Decorative/DestTree" />
+     <Folder Include="Assets/Animations/Environment/LAMPOST" />
+     <Folder Include="Library/PackageCache/com.unity.2d.path@5.0.2" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Rock trap D" />
+     <Folder Include="Assets/Animations/Animals/Bear/death" />
+     <Folder Include="Assets/Tiles/)MagicLands(Agua/anim" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/2_City_Terrains_Singles_16x16" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/32x32/_PSD" />
+     <Folder Include="Assets/Prefabs/items/Weapons" />
+     <Folder Include="Library/PackageCache/com.unity.modules.cloth@1.0.0" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/16x16" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/basecommands.zh-Hans.txt" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/9_Shopping_Center_and_Markets_Singles_16x16" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/2.Second Layer" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Rock trap AA" />
+     <Folder Include="Assets/Sprites/Use Sprites/Retro RPG Series - Animal Wildlife" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/32x32/_PSD/anim" />
+     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/PackageConversionData.json" />
+     <None Include="Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0/package.json" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/guihelp.en.txt" />
+     <Folder Include="Assets/Animations/Player/Sword/Swap" />
+     <Folder Include="Assets/Animations/Player/Metralhadora/idle" />
+     <Folder Include="Assets/Sprites/Use Sprites/Misc/Pickups.zip" />
+     <Folder Include="Library/PackageCache/com.unity.ext.nunit@1.0.6" />
+     <Folder Include="Assets/Prefabs/items" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/differences.ja.txt" />
+     <Folder Include="Assets/Prefabs/items/Ammunition" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/configurehelper.ja.txt" />
+     <Folder Include="Assets/Scripts/Enemies" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Player/run" />
+     <Folder Include="Assets/Prefabs/items/UI/Menu" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Textures/FilmGrain" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.11/IK" />
+     <Folder Include="Assets/Animations/Player/LaserGun/Swap" />
+     <Folder Include="Assets/Animations/Animals/Bear" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/semantic.en.txt" />
+     <Folder Include="Library/PackageCache/com.unity.burst@1.8.4" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Rock trap B" />
+     <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.18/package.json" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/workspaceserver.ko.txt" />
+     <None Include="Library/PackageCache/com.unity.render-pipelines.core@12.1.11/ValidationConfig.json" />
+     <Folder Include="Assets/Sprites" />
+     <None Include="Library/PackageCache/com.unity.render-pipelines.core@12.1.11/package.json" />
+     <None Include="Assets/Tiles/Modern_Exteriors_16x16/Animated_16x16/GIF FORMAT ISSUE.txt" />
+     <Folder Include="Assets/Scenes/Samples" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5" />
+     <Folder Include="Library/PackageCache/com.unity.feature.2d@1.0.0" />
+     <Folder Include="Library/PackageCache/com.unity.modules.imageconversion@1.0.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon" />
+     <Folder Include="Library/PackageCache/com.unity.modules.terrainphysics@1.0.0" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/plastic-gui.zh-Hans.txt" />
+     <None Include="Library/PackageCache/com.unity.modules.imageconversion@1.0.0/package.json" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Crate B" />
+     <Folder Include="Assets/Animations/Animals/Wolf/walk 1" />
+     <Folder Include="Library/PackageCache/com.unity.2d.common@6.0.6" />
+     <Folder Include="Assets/Animations/Animals/Wolf/idle 1" />
+     <Folder Include="Assets/Animations/Zombie/Zombievomit" />
+     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn K" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn E" />
+     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/ValidationExceptions.json" />
+     <Folder Include="Assets/Animations/Animals/Spider/attack" />
+     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0" />
+     <Folder Include="Assets/Settings/Scenes" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/CreftingItems/Resources" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Barrel A" />
+     <None Include="Library/PackageCache/com.unity.shadergraph@12.1.11/package.json" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm.en.txt" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 1 - RPG Maker MV/Vehicles" />
+     <Folder Include="Assets/Sprites/Use Sprites/Player/main character karimpatatas/bow" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/commontypes.en.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/4.SingleObj/Shrubs" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/commontypes.es.txt" />
+     <Folder Include="Assets/TextMesh Pro" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/VolumeProfiles" />
+     <Folder Include="Assets/Sprites/Use Sprites/Environment" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/1.First Layer" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/images.zh-Hant.txt" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/16x16/anim" />
+     <None Include="Library/PackageCache/com.unity.modules.unityanalytics@1.0.0/package.json" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/LensFlares/LensFlarePresets" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack" />
+     <Folder Include="Assets/Animations/Player/Metralhadora/walk" />
+     <Folder Include="Assets/Prefabs/items/Consumables" />
+     <Folder Include="Assets/Sprites/Use Sprites/Player/main character karimpatatas/without weapon" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/boomerang" />
+     <Folder Include="Library/PackageCache/com.unity.modules.subsystems@1.0.0" />
+     <None Include="Library/PackageCache/com.unity.ide.rider@3.0.21/package.json" />
+     <Folder Include="Assets/Animations/Player/Bow/walk" />
+     <Folder Include="Assets/Animations/Animals/Snake/death 1" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Animated objects/Pillar A" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/i3.zh-Hans.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Player" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/4 spit" />
+     <None Include="Library/PackageCache/com.unity.searcher@4.9.1/package.json" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/6_Garage_Sales_Singles_16x16" />
+     <Folder Include="Assets/Sprites/Use Sprites/CanTalkBubble" />
+     <None Include="Library/PackageCache/com.unity.modules.video@1.0.0/package.json" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures" />
+     <None Include="Library/PackageCache/com.unity.shadergraph@12.1.11/ValidationConfig.json" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Hospital Tiles - RPG Maker MV - Vexed/Horror City - Frankenstein MV" />
+     <Folder Include="Assets/Animations/Player/NoWeapon/pickup" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/LensFlares/Textures" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/11_Camping_Singles_16x16" />
+     <Folder Include="Library/PackageCache/com.unity.shadergraph@12.1.11/Tests" />
+     <Folder Include="Assets/Sprites/Use Sprites/Particle FX 1.0/Leaves" />
+     <Folder Include="Assets/Animations" />
+     <None Include="Library/PackageCache/com.unity.test-framework@1.1.31/package.json" />
+     <Folder Include="Library/PackageCache/com.unity.modules.unityanalytics@1.0.0" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Fonts" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City Tile Pack - RPG Maker MV" />
+     <Folder Include="Library/PackageCache/com.unity.modules.physics@1.0.0" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Animated_16x16/Vehicles_16x16/Buses_16x16" />
+     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/5 boomerang" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Crystal D" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/basecommands.en.txt" />
+     <Folder Include="Assets/Animations/Player/NoWeapon/walk" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/3D Skybox/Animation" />
+     <Folder Include="Library/PackageCache/com.unity.modules.vr@1.0.0" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Animated_16x16/Vehicles_16x16" />
+     <Folder Include="Assets/Animations/Player/LaserGun/pickup" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/images.ko.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/workspaceserver.es.txt" />
+     <Folder Include="Library/PackageCache/com.unity.modules.physics2d@1.0.0" />
+     <Folder Include="Assets/Animations/Animals/Snake" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Scripts" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Enemies/Enemy1" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/32x32" />
+     <Folder Include="Library/PackageCache/com.unity.inputsystem@1.5.1" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm-help.en.txt" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Hospital Tiles - RPG Maker MV - Vexed/Horror City - Frankenstein MV/Tilesets" />
+     <Folder Include="Assets/Sprites/Use Sprites/Misc/Materials" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11" />
+     <None Include="Library/PackageCache/com.unity.modules.particlesystem@1.0.0/package.json" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/2 vomit/2" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/binmergetool.ko.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/MixedFOV/Prefabs" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/3D Skybox/3DSkybox" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/mergetool.en.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Animated objects/Warm spring BB" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/4.SingleObj/Special" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Player/main_attacks" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Shaders" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/workspaceserver.zh-Hans.txt" />
+     <Folder Include="Library/PackageCache/com.unity.modules.wind@1.0.0" />
+     <Folder Include="Assets/Animations/Zombie/ZombieSpit/attack" />
+     <Folder Include="Assets/Animations/Environment/TrashFire" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/binmergetool.zh-Hant.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/MixedFOV" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Dungeon Rule Tile/Tiles" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/32x32/anim" />
+     <Folder Include="Assets/Animations/Player/NoWeapon" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/GlitchEffect" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/plastic-gui.en.txt" />
+     <Folder Include="Library/PackageCache/com.unity.shadergraph@12.1.11" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals/PaintSplat/PaintSplat" />
+     <None Include="Library/PackageCache/com.unity.modules.physics2d@1.0.0/package.json" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Character_Generator_Addons_16x16" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/differences.zh-Hans.txt" />
+     <Folder Include="Assets/Animations/Environment/Boat" />
+     <None Include="Library/PackageCache/com.unity.modules.vr@1.0.0/package.json" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/binmergetool.en.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/32x32/anim/_PSD" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel1" />
+     <Folder Include="Assets/Tiles/Tiles Used" />
+     <Folder Include="Library/PackageCache/com.unity.modules.uielements@1.0.0" />
+     <None Include="Library/PackageCache/com.unity.visualscripting@1.8.0/ValidationExceptions.json" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Hospital Tiles - RPG Maker MV - Vexed/Horror City - Frankenstein MV/Characters" />
+     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0" />
+     <Folder Include="Assets/Animations/Player/Bow/pickup" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <Folder Include="Library/PackageCache/com.unity.modules.particlesystem@1.0.0" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets/Animations/NPC&apos;s/Betânia/walk" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/configurehelper.zh-Hant.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/LensFlares/Animation" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Barrel B" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm-help.zh-Hans.txt" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/8_Worksite_Singles_16x16" />
+     <None Include="Library/PackageCache/com.unity.2d.common@6.0.6/package.json" />
+     <Folder Include="Assets/Animations/Brother/walk" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/semantic.ko.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/workspaceserver.en.txt" />
+     <None Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.18/ValidationExceptions.json" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Animated_16x16/Animated_gifs_16x16" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sewer Tileset - RPG Maker MV/Objects &amp; Extras" />
+     <Folder Include="Assets/Sprites/Use Sprites/Player/main character karimpatatas/Pushing" />
+     <None Include="Assets/Sprites/Use Sprites/Retro RPG Series - Animal Wildlife/License - No Attribution Required.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/1 melee/1" />
+     <Folder Include="Assets/Animations/Animals/Snake/idle 1" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm-help.zh-Hant.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Player/idle" />
+     <Folder Include="Assets/Tiles/)MagicLands(Agua/PSD/anim" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Crystal B" />
+     <None Include="Library/PackageCache/com.unity.modules.wind@1.0.0/package.json" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Animated objects/Warm spring AA" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/clientcommon.zh-Hant.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/2 vomit/gifs" />
+     <Folder Include="Library/PackageCache/com.unity.ugui@1.0.0/Tests" />
+     <Folder Include="Assets/Prefabs/Weapons/Enemy" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn L" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/xdiff.zh-Hant.txt" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <None Include="Library/PackageCache/com.unity.modules.umbra@1.0.0/package.json" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/1_Terrains_and_Fences_Singles_16x16" />
+     <Folder Include="Assets/Animations/Player/Metralhadora" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/32x32/_PNG/anim" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals/BlobShadow/Animation" />
+     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Textures" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Waterfall Animated Tile/Tiles" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/13_School_Singles_16x16" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/16x16/_PSD" />
+     <Folder Include="Library/PackageCache/com.unity.2d.sprite@1.0.0" />
+     <Folder Include="Library/PackageCache/com.unity.modules.tilemap@1.0.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Anim objects/Rag wind C" />
+     <Folder Include="Assets/Animations/Animals/Spider" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/i3.zh-Hant.txt" />
+     <None Include="Assets/Sprites/Use Sprites/RPGW_HousesAndInt_v1.1/public-license.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm.ko.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Enemies/Enemy2" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/4 Paper Pack/Headers" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/guihelp.zh-Hans.txt" />
+     <Folder Include="Library/PackageCache/com.unity.modules.ui@1.0.0" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/4.SingleObj" />
+     <Folder Include="Assets/Animations/Player/NoWeapon/attack" />
+     <Folder Include="Assets/Animations/Sword" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/32x32/_PSD" />
+     <Folder Include="Assets/Prefabs/items/Currency" />
+     <Folder Include="Assets/Animations/Player/Metralhadora/Death" />
+     <Folder Include="Assets/Scripts/Player" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Textures" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Spikes trap A" />
+     <None Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 2 - RPG Maker MV/ReadMe.txt" />
+     <Folder Include="Library/PackageCache/com.unity.mathematics@1.2.6" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/1 items Pack" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/32x32/_PNG" />
+     <Folder Include="Assets/Animations/Environment/Flame" />
+     <Folder Include="Library/PackageCache/com.unity.2d.psdimporter@6.0.7" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/FileSystemWatcherLicense.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/4 Paper Pack/Papers" />
+     <None Include="Library/PackageCache/com.unity.2d.path@5.0.2/package.json" />
+     <Folder Include="Library/PackageCache/com.unity.modules.androidjni@1.0.0" />
+     <Folder Include="Assets/Scripts/Misc" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Hospital Tiles - RPG Maker MV - Vexed" />
+     <None Include="Library/PackageCache/com.unity.2d.tilemap.extras@2.2.6/package.json" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Pipe Rule Tile" />
+     <Folder Include="Assets/Scripts/Inventory/CraftingSystem" />
+     <Folder Include="Assets/Animations/Player/Sword/pickup" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Consumable/Resources" />
+     <None Include="Library/PackageCache/com.unity.inputsystem@1.5.1/ValidationExceptions.json" />
+     <Folder Include="Assets/Animations/Player/Grab/Throw" />
+     <Folder Include="Assets/TextMesh Pro/Shaders" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Materials" />
+     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Gizmos" />
+     <None Include="Library/PackageCache/com.unity.modules.audio@1.0.0/package.json" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm-help.ko.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/3 melee" />
+     <Folder Include="Assets/Animations/Brother" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm-help.ja.txt" />
+     <Folder Include="Assets/Animations/Brother/idle" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/clientcommon.en.txt" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/3_City_Props_Singles_16x16" />
+     <None Include="Library/PackageCache/com.unity.modules.physics@1.0.0/package.json" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn D" />
+     <None Include="Assets/Tiles/PALands_SET1_v1.0/license.txt" />
+     <Folder Include="Assets/Tiles/HorrorCity" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.4" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Textures/2D" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/binmergetool.zh-Hans.txt" />
+     <Folder Include="Assets/Prefabs/NPC&apos;s" />
+     <Folder Include="Assets/Animations/Player/LaserGun/walk" />
+     <None Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/ValidationExceptions.json" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Weapon/Resources" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/i3.es.txt" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Style Sheets" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/mergetool.zh-Hans.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/SplitScreen/SplitScreen" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/commontypes.zh-Hant.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/differences.ko.txt" />
+     <Folder Include="Assets/TextMesh Pro/Fonts" />
+     <None Include="Library/PackageCache/com.unity.modules.vehicles@1.0.0/package.json" />
+     <Folder Include="Assets/Animations/Player/Bow" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/TrailEffect" />
+     <None Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Shaders/3DText.shader" />
+     <Folder Include="Assets/Animations/Player/NoWeapon/idle" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/LensFlares/SunFlare" />
+     <Folder Include="Assets/Animations/Player/Pushing" />
+     <Folder Include="Assets/Animations/Player/Bow/idle" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/plastic-gui.es.txt" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/Old_Sorting" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/0.Rockslevelbuild/single_rocks" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/images.en.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/binmergetool.ja.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/vomit" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals/PaintSplat" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/16x16/_PNG" />
+     <Folder Include="Assets/Animations/Player/Sword/idle" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Player" />
+     <Folder Include="Assets/Sprites/Use Sprites/Particle FX 1.0/Gravity" />
+     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6" />
+     <None Include="Library/PackageCache/com.unity.modules.uielementsnative@1.0.0/package.json" />
+     <Folder Include="Assets/Animations/Animals/Spider/idle" />
+     <Folder Include="Assets/Animations/Bubble" />
+     <Folder Include="Assets/Animations/Zombie" />
+     <Folder Include="Assets/Animations/Zombie/Zombievomit/attack" />
+     <Folder Include="Assets/Animations/NPC&apos;s/Betânia" />
+     <Folder Include="Library/PackageCache/com.unity.ide.rider@3.0.21" />
+     <None Include="Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0/package.json" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.core@12.1.11" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/3D Skybox/Shaders" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/3.Third Layer" />
+     <None Include="Assets/Sprites/Use Sprites/NPC_Characters_v1.0/_INFO.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/OcclusionEffect" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Rock trap A" />
+     <Folder Include="Assets/Animations/PickUPs/Zcoin" />
+     <Folder Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0/Tests" />
+     <None Include="Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0/package.json" />
+     <Folder Include="Library/PackageCache/com.unity.searcher@4.9.1/Tests" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Waterfall Animated Tile" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Dialogues" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Weapons" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn A" />
+     <None Include="Library/PackageCache/com.unity.feature.2d@1.0.0/package.json" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/CreftingItems" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/5_Floor_Modular_Building_Singles_16x16" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/Progress Bars" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Miscelaneos/Resources" />
+     <Folder Include="Assets/Animations/Zombie/ZombieBoomerang/attack 1" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/binmergetool.es.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/3D Skybox/Materials" />
+     <Folder Include="Assets/Animations/Player/Sword/Staf" />
+     <Folder Include="Assets/Sprites/Use Sprites/RPGW_HousesAndInt_v1.1" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/15_Police_Station_Singles_16x16" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm.ja.txt" />
+     <Folder Include="Assets/Prefabs/Weapons/VFX" />
+     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders/TMP_SDF_SSD.cginc" />
+     <Folder Include="Assets/Prefabs/items/UI" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn F" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Anim objects" />
+     <Folder Include="Library/PackageCache/com.unity.2d.animation@7.0.11" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Textures/BlueNoise16" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/bin" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/ValidationConfig.json" />
+     <Folder Include="Assets/Animations/Zombie/ZombieSpit/walk" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/16x16/anim/_PNG" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/3 melee/gifs" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Dungeon Rule Tile/Sprites" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 2 - RPG Maker MV/Extras" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/images.ja.txt" />
+     <None Include="Assets/Tiles/HorrorCity/Horror City Tile Pack - RPG Maker MV/ReadMe.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/SplitScreen" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/14_Swimming_Pool_Singles_16x16" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/3D Skybox" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/TrailEffect/Shaders" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel1/idle" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/5 boomerang/5" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Crate C" />
+     <Folder Include="Library/PackageCache/com.unity.ide.vscode@1.2.5" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel1/attack" />
+     <Folder Include="Library/PackageCache/com.unity.modules.vehicles@1.0.0" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/4 Paper Pack/Tabs &amp; BookMarks" />
+     <None Include="Library/PackageCache/com.unity.modules.xr@1.0.0/package.json" />
+     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Tests" />
+     <Folder Include="Assets/Animations/Player/Metralhadora/attack" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Hospital Tiles - RPG Maker MV - Vexed/Hospital Tiles - MV" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Consumable" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/16x16/_PNG/anim" />
+     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders/TMP_Properties.cginc" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel2" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Crate D" />
+     <Folder Include="Assets/Scripts/Weapons" />
+     <Folder Include="Assets/Prefabs/SavingSystem" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.core@12.1.11/Tests" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Rock trap CC" />
+     <Folder Include="Assets/Sprites/Use Sprites/Particle FX 1.0" />
+     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders/TMP_SDF Internal Editor.shader" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/xdiff.es.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Tomb B" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/configurehelper.zh-Hans.txt" />
+     <Folder Include="Library/PackageCache/com.unity.modules.umbra@1.0.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Player/dead" />
+     <None Include="Assets/Sprites/Use Sprites/NPC_Characters_v1.0/_license.txt" />
+     <Folder Include="Assets/Sprites/Use Sprites/Misc/New_All_Fire_Bullet_Pixel_16x16" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/mergetool.zh-Hant.txt" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/16x16/_PSD/anim" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/clientcommon.zh-Hans.txt" />
+     <Folder Include="Assets/Animations/Zombie/ZombieSpit/idle" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets/Animations/Zombie/ZombieBoomerang" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/10_Vehicles_Singles_16x16/Materials" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0/32x32/_PNG" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/semantic.ja.txt" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel1/Death" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Animated_16x16/Animated_sheets_16x16" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/zombies/4 spit/4" />
+     <Folder Include="Assets/Scenes/Samples/Shader Graph" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/Decoration" />
+     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0" />
+     <Folder Include="Assets/Animations/Zombie/ZombieSpit" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib" />
+     <None Include="Library/PackageCache/com.unity.modules.director@1.0.0/package.json" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Ammo" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Animated objects" />
+     <None Include="Library/PackageCache/com.unity.ide.vscode@1.2.5/ValidationExceptions.json" />
+     <Folder Include="Library/PackageCache/com.unity.modules.jsonserialize@1.0.0" />
+     <None Include="Library/PackageCache/com.unity.visualscripting@1.8.0/ValidationConfig.json" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Waterfall Animated Tile/Sprites" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/OcclusionEffect/Animation" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Animated objects/Light B" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals/BlobShadow/BlobShadow" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/4. SingleObj" />
+     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Editor Resources/Shaders" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn J" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Ammo/Resources" />
+     <Folder Include="Library/PackageCache/com.unity.modules.director@1.0.0" />
+     <Folder Include="Library/PackageCache/com.unity.modules.audio@1.0.0" />
+     <None Include="Assets/Tiles/)MagicLands(Agua/public-license.txt" />
+     <Folder Include="Assets/Scenes/Scene_2" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn H" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/MixedFOV/MixedFOV" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Animated_16x16" />
+     <Folder Include="Assets/Sprites/Use Sprites/Scene_1" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 2 - RPG Maker MV/Vehicles" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Crystal C" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys" />
+     <Folder Include="Assets/Animations/Zombie/ZombieSpit/Death" />
+     <None Include="Library/PackageCache/com.unity.modules.terrain@1.0.0/package.json" />
+     <None Include="Assets/Tiles/HorrorCity/Horror City - Hospital Tiles - RPG Maker MV - Vexed/Hospital Tiles - MV/ReadMe.txt" />
+     <Folder Include="Assets/Tiles/PALands_SET1_v1.0" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City Tile Pack - RPG Maker MV/Objects" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/commontypes.ko.txt" />
+     <None Include="Assets/Tiles/HorrorCity/Horror City - Sewer Tileset - RPG Maker MV/ReadMe.txt" />
+     <None Include="Library/PackageCache/com.unity.2d.sprite@1.0.0/package.json" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/Day &amp; Night Cycle" />
+     <Folder Include="Assets/Prefabs/items/QuestItems" />
+     <Folder Include="Assets/Prefabs/Enemys/Animals" />
+     <Folder Include="Assets/Scenes/Samples/Shader Graph/12.1.11/Procedural Patterns" />
+     <Folder Include="Library/PackageCache/com.unity.ide.visualstudio@2.0.18" />
+     <Folder Include="Assets/Prefabs/items/UI/Dialogue" />
+     <Folder Include="Assets/Animations/Animals/Spider/walk" />
+     <Folder Include="Assets/Sprites/Use Sprites/Misc/2 Guns" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/AmbientOcclusion" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Miscelaneos" />
+     <Folder Include="Assets/Scripts/Managers" />
+     <None Include="Library/PackageCache/com.unity.modules.androidjni@1.0.0/package.json" />
+     <Folder Include="Assets/Prefabs/items/UI/Inventory" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/4_Generic_Building_Singles_16x16" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Rock trap DD" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals/ProxyLighting" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Shaders/Lit/Materials" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Currency" />
+     <Folder Include="Assets/Scripts/Inventory/Item" />
+     <Folder Include="Assets/Prefabs/Weapons" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/commontypes.ja.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals" />
+     <Folder Include="Library/PackageCache/com.unity.modules.video@1.0.0" />
+     <Folder Include="Assets/Animations/Zombie/Zombievomit/walk" />
+     <Folder Include="Library/PackageCache/com.unity.modules.ai@1.0.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Anim objects/Rag wind A" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/configurehelper.ko.txt" />
+     <Folder Include="Assets/Animations/Player/Sword/Death" />
+     <None Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/PackageConversionData_Assets.json" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/16x16" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel2/Death" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Crystal A" />
+     <Folder Include="Assets/Animations/Player/Sword/walk" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Anim objects/Yellow well" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Animated_16x16/Vehicles_16x16/Cars_16x16" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves" />
+     <Folder Include="Assets/Animations/Player/NoWeapon/Death" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Weapon" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/Modern_Exteriors_Complete_Singles_16x16" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Editor" />
+     <Folder Include="Library/PackageCache/com.unity.2d.tilemap@1.0.0" />
+     <Folder Include="Assets/Sprites/Use Sprites/Misc/4 Shoot_effects" />
+     <Folder Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/Textures/BlueNoise16/L" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/4. SingleObj/Rocks" />
+     <None Include="Library/PackageCache/com.unity.2d.spriteshape@7.0.7/package.json" />
+     <Folder Include="Assets/Tiles" />
+     <None Include="Library/PackageCache/com.unity.mathematics@1.2.6/ValidationExceptions.json" />
+     <Folder Include="Library/PackageCache/com.unity.textmeshpro@3.0.6/Package Resources" />
+     <Folder Include="Assets/Prefabs/Effects" />
+     <Folder Include="Assets/Prefabs" />
+     <Folder Include="Assets/Animations/Zombie/Zombievomit/idle" />
+     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+     <Folder Include="Assets/Tiles/Modern_Exteriors_16x16/ME_Theme_Sorter_16x16/7_Villas_Singles_16x16" />
+     <Folder Include="Library/PackageCache/com.unity.modules.terrain@1.0.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/3.Third Layer" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/1. OpenWorld/4.SingleObj/Decorative" />
+     <Folder Include="Library/PackageCache/com.unity.2d.tilemap.extras@2.2.6/Tests" />
+     <Folder Include="Assets/Sprites/Use Sprites/Particle FX 1.0/Poison Cloud" />
+     <Folder Include="Library/PackageCache/com.unity.2d.sprite@1.0.0/Tests" />
+     <None Include="Library/PackageCache/com.unity.modules.animation@1.0.0/package.json" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Animated objects/Warm spring A" />
+     <Folder Include="Assets/TextMesh Pro/Documentation" />
+     <None Include="Library/PackageCache/com.unity.2d.animation@7.0.11/package.json" />
+     <Folder Include="Library/PackageCache/com.unity.modules.uielementsnative@1.0.0" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Shaders/Lit" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/SharedAssets/Shaders" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/guihelp.es.txt" />
+     <Folder Include="Assets/Animations/Zombie/ZombieBoomerang/walk 1" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/differences.en.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/workspaceserver.ja.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/mergetool.ko.txt" />
+     <Folder Include="Assets/Animations/Player/Bow/attack" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Enemies/Enemy2/Ball" />
+     <Folder Include="Assets/Animations/Animals/Bear/idle" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Rock trap C" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/Grape" />
+     <Folder Include="Assets/Animations/Zombie/Zombievomit/Death" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/clientcommon.ko.txt" />
+     <Folder Include="Library/PackageCache/com.unity.visualscripting@1.8.0/Editor" />
+     <Folder Include="Assets/Animations/Zombie/ZombieMel2/attack" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/i3.ja.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets/Animations/Animals/Wolf" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Items/Currency/Resources" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Urn I" />
+     <Folder Include="Assets/Tiles/HorrorCity/Horror City - Sprite Pack 1 - RPG Maker MV" />
+     <None Include="Library/PackageCache/com.unity.burst@1.8.4/Unity.Burst.Unsafe.xml" />
+     <Folder Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects/Crate A" />
+     <Folder Include="Assets/Sprites/Use Sprites/Enemys/Pixel Contest Enemies" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm.zh-Hans.txt" />
+     <Folder Include="Assets/Animations/Animals/Wolf/attack 1" />
+     <None Include="Library/PackageCache/com.unity.2d.psdimporter@6.0.7/package.json" />
+     <Folder Include="Assets/Sprites/Use Sprites/UI" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/32x32" />
+     <Folder Include="Assets/Animations/Animals/Snake/walk 1" />
+     <Folder Include="Assets/Animations/PickUPs" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals/BlobShadow" />
+     <None Include="Library/PackageCache/com.unity.render-pipelines.universal@12.1.11/ValidationConfig.json" />
+     <None Include="Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0/package.json" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/RendererFeatures/KeepFrame" />
+     <Folder Include="Assets/Scenes/Samples/Shader Graph/12.1.11" />
+     <None Include="Library/PackageCache/com.unity.modules.uielements@1.0.0/package.json" />
+     <Folder Include="Assets/Sprites/Use Sprites/NPC_Characters_v1.0/_PSD" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/plastic-gui.ja.txt" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Shaders/Lit/Prefabs" />
+     <None Include="Library/PackageCache/com.unity.burst@1.8.4/package.json" />
+     <Folder Include="Assets/Samples" />
+     <Folder Include="Assets/Scripts/ScriptableObjects/Quests/Resources" />
+     <Folder Include="Assets/Unity.VisualScripting.Generated" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/i3.en.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/workspaceserver.zh-Hant.txt" />
+     <Folder Include="Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/cm.zh-Hant.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/xdiff.en.txt" />
+     <Folder Include="Assets/Tiles/)MagicLands(Agua/PSD" />
+     <Folder Include="Assets/Sprites/Use Sprites/Free Pack/Design/Day &amp; Night Cycle/Frame" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
+     <Folder Include="Assets/Animations/Animals" />
+     <Folder Include="Library/PackageCache/com.unity.ugui@1.0.0" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Animated objects/Warm spring B" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/LensFlares" />
+     <Folder Include="Library/PackageCache/com.unity.2d.spriteshape@7.0.7" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/Decals/ProxyLighting/Materials" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/2. Caves/Traps/Rock trap BB" />
+     <Folder Include="Assets/Sprites/Use Sprites/RPGW_HousesAndInt_v1.1/PSD" />
+     <Folder Include="Assets/Tiles/HorrorCity/HC_Store MV" />
+     <Folder Include="Assets/Animations/Animals/Bear/walk" />
+     <Folder Include="Assets/Tiles/PALands_SET2_v1.0/16x16/_PSD" />
+     <Folder Include="Assets/Sprites/main character revised" />
+     <None Include="Library/PackageCache/com.unity.modules.ui@1.0.0/package.json" />
+     <Folder Include="Assets/Samples/2D Tilemap Extras/2.2.5/Pipe Rule Tile/Tiles" />
+     <Folder Include="Library/PackageCache/com.unity.2d.spriteshape@7.0.7/Tests" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+     <Folder Include="Assets/Prefabs/SceneManagement" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/semantic.zh-Hans.txt" />
+     <Folder Include="Assets/Animations/Zombie/ZombieBoomerang/Death" />
+     <Folder Include="Assets/Scripts/SaveAndLoad" />
+     <Folder Include="Assets/Animations/Bow/Bow" />
+     <None Include="Assets/Tiles/PALands_SET2_v1.0/license.txt" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/i3.ko.txt" />
+     <Folder Include="Assets/Tiles/OpenWorldandcavedung_1.0/Open World And Cave Dungeon/Destructive objects" />
+     <Folder Include="Library/PackageCache/com.unity.2d.psdimporter@6.0.7/Tests" />
+     <Folder Include="Assets/Scenes/Samples/Universal RP/12.1.11/URP Package Samples/CameraStacking/3D Skybox/Scripts" />
+     <None Include="Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Localization/guihelp.ko.txt" />
+     <None Include="Library/PackageCache/com.unity.ide.vscode@1.2.5/package.json" />
+     <Reference Include="UnityEngine">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>/Users/karim/DevJogos/MyBrotherZ/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{644082d6-2d13-0762-1f4c-03892017060f}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
+      <Project>{a04e6993-104a-53b9-3d9a-58e2d3d26c86}</Project>
+      <Name>Unity.2D.Tilemap.Extras</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
+      <Project>{d37c509b-d447-83e5-a364-d2c1763b283f}</Project>
+      <Name>Unity.InternalAPIEngineBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{8076ad72-9560-289b-efae-4f303c23200a}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
+      <Project>{fe894499-c914-3829-e7e5-40cdea1255bb}</Project>
+      <Name>Unity.2D.PixelPerfect</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
+      <Project>{1aafb8d3-fda4-4bb4-8784-7b8d3f105f42}</Project>
+      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+      <Project>{b320c54f-740f-c7f6-d433-1e507e0c5eac}</Project>
+      <Name>Unity.2D.Animation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
+      <Project>{d287e254-75bf-6866-4fdb-3b15b88aa4fc}</Project>
+      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PsdPlugin.csproj">
+      <Project>{30f6f3af-1730-417d-d1ee-8d9bd04c63b4}</Project>
+      <Name>PsdPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{b763be75-0b1c-65ae-6ea2-f9ff25bd1a74}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{ecb2e1a7-e922-05e7-4edc-bc3bc3a2906a}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{b98243d5-6dd6-b2aa-03e3-8332540b79aa}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PPv2URPConverters.csproj">
+      <Project>{c479e563-9e87-0db5-8eff-8bf9c01331aa}</Project>
+      <Name>PPv2URPConverters</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{6f60f254-32ed-5559-9bad-b8a3d13ac667}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{593091d6-f038-3659-3b28-8c28c2422c99}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{b18c2dcb-0f9d-3d0a-c839-6eb45f094f0e}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{68240730-9afc-e82b-68fb-ef4a226a35bb}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{e4501e78-d66b-9957-55bb-e3cba0a10b13}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{13d4fc1c-5618-4b7a-3bae-6d59e63602a9}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Editor.csproj">
+      <Project>{4b4998ef-0169-fbdb-21bb-de507ba25ee3}</Project>
+      <Name>Unity.2D.IK.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{11ef059e-0b5b-f7e0-c4d2-501a9567fe33}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
+      <Project>{ead6b4b0-d523-76b7-ff3e-2900539aa922}</Project>
+      <Name>Unity.2D.Path.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{b9fbe696-87d6-42b4-31e1-3e7c3dc0af90}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{a2fd6d75-ea3f-36eb-c0be-b028dcb64cfc}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{c935d58a-4e5c-4bc5-c78c-37f31bc6df9c}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{7cb7e47a-2555-1e7b-17a6-e8d5888b10b4}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{f45b1193-9f3a-2691-871c-8ac50fcb1cef}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
+      <Project>{1c7b3b72-77b5-6ac6-9c24-d6f0a8d1802e}</Project>
+      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{13814a29-cbd8-8516-7a8d-74a8e4ad3234}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{590fe0a7-2c7a-36cc-01bd-5e4e355b0122}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{944318c9-93c3-c9d9-aef1-033983ce930b}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
+      <Project>{0ade075d-c003-6c98-7d4c-b5a518c4ffdf}</Project>
+      <Name>Unity.2D.Psdimporter.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{5c6cc477-4da3-d195-6fe4-d01b3ee33695}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{99b97355-eff2-02a4-2efb-7f0fcd4154c7}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
+      <Project>{87df2e1a-b105-89e1-7cf4-71e3401ec2d1}</Project>
+      <Name>Unity.2D.IK.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
+      <Project>{372b7288-d84d-c8b5-7bff-1de1ee5865f2}</Project>
+      <Name>Unity.ShaderGraph.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{f6213fa7-754e-9a43-2e60-885cf1f004a2}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{cc58e313-993e-64c9-274d-2a01b109c817}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
+      <Project>{9e7a4ada-8d7f-3c01-770d-3ab2275f3d44}</Project>
+      <Name>Unity.RenderPipelines.Universal.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{33fe401b-b7ff-8766-3809-1930dbef578f}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{892c598f-9c05-0308-463f-42368d8a232c}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
+      <Project>{37238ab1-b325-82e0-5ece-bbd3abbabb12}</Project>
+      <Name>Unity.2D.Animation.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
+      <Project>{8dfaf230-3bbf-7037-ab6c-eff15328b007}</Project>
+      <Name>Unity.2D.PixelPerfect.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
+      <Project>{89cf7f40-2790-39a3-020c-45df7bdd51da}</Project>
+      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{69555f86-4047-df58-9d81-df11db5f1d13}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
+      <Project>{c8506b70-03db-8259-9997-529b9dc23d48}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{a5b70316-04a2-93a4-0987-50642e1cea56}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
+      <Project>{f4d74421-fba6-e2ab-1eb2-0f83c3d22640}</Project>
+      <Name>Unity.2D.Common.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
+      <Project>{df581749-5935-948e-62fc-6ba0272226b0}</Project>
+      <Name>Unity.2D.SpriteShape.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{294aabce-d812-d091-5de7-10abff4d024a}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
+      <Project>{2cc8709e-ac76-7254-51e1-cf472612d096}</Project>
+      <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{245cf8a6-a2e5-55a6-395b-e74791b044f7}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{d33a76e0-eaa2-01f1-716c-f7cb8bc7a5cf}</Project>
+      <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
